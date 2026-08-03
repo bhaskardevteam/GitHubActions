@@ -1,1 +1,15 @@
-
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node.js CI/CD demo project using GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "build": "echo Build completed successfully"
+  },
+  "author": "Bhaskar",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
